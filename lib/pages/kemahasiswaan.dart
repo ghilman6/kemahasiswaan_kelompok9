@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:kemahasiswaan_kelompok9/pages/pengumuman.dart';
 
 class Kemahasiswaan extends StatefulWidget {
   @override
@@ -16,16 +17,18 @@ class _KemahasiswaanState extends State<Kemahasiswaan> {
           Card(
             color: Colors.blue,
             child: InkWell(
-              onTap: (){},
+              onTap: (){
+                Navigator.push(context, MaterialPageRoute(builder: (context) => Pengumuman()));
+              },
               splashColor: Colors.white,
               child: Center(
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: <Widget>[
-                      Icon(Icons.announcement_outlined, size: 55,),
-                      Text ('Pengumuman', style: new TextStyle(fontSize: 17.0),)
-                    ],
-                  )
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: <Widget>[
+                    Icon(Icons.announcement_outlined, size: 55,),
+                    Text ('Pengumuman', style: new TextStyle(fontSize: 17.0),)
+                  ],
+                )
               ),
             ),
           ),
