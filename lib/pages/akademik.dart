@@ -8,10 +8,10 @@ class Akademik extends StatefulWidget {
 class _AkademikState extends State<Akademik> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('akademik'),
-      ),
+    return MaterialApp(
+        home: Scaffold(
+          body: Center(child: Text('Akademik',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 25), ),),
+        )
     );
   }
 }
