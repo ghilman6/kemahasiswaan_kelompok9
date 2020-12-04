@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:latihannavbar/pages/pengumuman.dart';
+import 'package:kemahasiswaan_kelompok9/pages/pengumuman.dart';
 
 class Kemahasiswaan extends StatefulWidget {
   @override
@@ -22,13 +22,13 @@ class _KemahasiswaanState extends State<Kemahasiswaan> {
               },
               splashColor: Colors.white,
               child: Center(
-                child: Column(
-                  mainAxisSize: MainAxisSize.min,
-                  children: <Widget>[
-                    Icon(Icons.announcement_outlined, size: 55,),
-                    Text ('Pengumuman', style: new TextStyle(fontSize: 17.0),)
-                  ],
-                )
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: <Widget>[
+                      Icon(Icons.announcement_outlined, size: 55,),
+                      Text ('Pengumuman', style: new TextStyle(fontSize: 17.0),)
+                    ],
+                  )
               ),
             ),
           ),

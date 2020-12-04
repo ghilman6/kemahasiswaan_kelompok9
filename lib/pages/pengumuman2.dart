@@ -3,17 +3,17 @@ import 'package:flutter/material.dart';
 class Pengumuman2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-  return Scaffold(
-    appBar: AppBar(
-    title: Text('Pengumuman'),
-    ),
-    body: ListView(
-      children: <Widget>[
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Pengumuman'),
+      ),
+      body: ListView(
+        children: <Widget>[
           ListTile(
-          title: Text('8 Agustus 2020',
-              style: TextStyle(height: 2, fontSize: 20)),
-          subtitle: Text('Ormik Mahasiswa Baru',
-              style: TextStyle(height: 2, fontSize: 25, color: Colors.blue)),
+            title: Text('8 Agustus 2020',
+                style: TextStyle(height: 2, fontSize: 20)),
+            subtitle: Text('Ormik Mahasiswa Baru',
+                style: TextStyle(height: 2, fontSize: 25, color: Colors.blue)),
           ),
           Divider(
             color: Colors.black12,

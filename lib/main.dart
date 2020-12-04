@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:latihannavbar/pages/akademik.dart';
-import 'package:latihannavbar/pages/dashboard.dart';
-import 'package:latihannavbar/pages/kemahasiswaan.dart';
-import 'package:latihannavbar/pages/profil.dart';
+import 'package:kemahasiswaan_kelompok9/pages/akademik.dart';
+import 'package:kemahasiswaan_kelompok9/pages/dashboard.dart';
+import 'package:kemahasiswaan_kelompok9/pages/kemahasiswaan.dart';
+import 'package:kemahasiswaan_kelompok9/pages/profil.dart';
 
 void main() {
   runApp(MyApp());
