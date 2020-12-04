@@ -79,6 +79,7 @@ class _AwalState extends State<Awal>{
         currentIndex: _selectedIndex,
         onTap: _onTabItem,
       ),
+      home: Home(),
     );
   }
 }
