@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:kemahasiswaan_kelompok9/pages/pengumuman.dart';
+import 'package:latihannavbar/pages/pengumuman.dart';
 
 class Kemahasiswaan extends StatefulWidget {
   @override

@@ -1,4 +1,4 @@
-package com.example.kemahasiswaan_kelompok9
+package com.example.latihannavbar
 
 import io.flutter.embedding.android.FlutterActivity
 

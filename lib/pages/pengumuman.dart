@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:kemahasiswaan_kelompok9/pages/pengumuman2.dart';
+import 'package:latihannavbar/pages/pengumuman2.dart';
 
 class Pengumuman extends StatelessWidget {
   @override

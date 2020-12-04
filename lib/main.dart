@@ -1,9 +1,8 @@
-import 'dart:developer';
 import 'package:flutter/material.dart';
-import 'package:kemahasiswaan_kelompok9/pages/akademik.dart';
-import 'package:kemahasiswaan_kelompok9/pages/dashboard.dart';
-import 'package:kemahasiswaan_kelompok9/pages/kemahasiswaan.dart';
-import 'package:kemahasiswaan_kelompok9/pages/profil.dart';
+import 'package:latihannavbar/pages/akademik.dart';
+import 'package:latihannavbar/pages/dashboard.dart';
+import 'package:latihannavbar/pages/kemahasiswaan.dart';
+import 'package:latihannavbar/pages/profil.dart';
 
 void main() {
   runApp(MyApp());
@@ -13,6 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: new Awal(),
     );
   }
@@ -48,7 +48,6 @@ class _AwalState extends State<Awal>{
     return Scaffold(
       appBar: AppBar(
         title: Text('Student App'),
-        centerTitle: true,
       ),
       body: _layoutPage.elementAt(_selectedIndex),
       bottomNavigationBar: BottomNavigationBar(
