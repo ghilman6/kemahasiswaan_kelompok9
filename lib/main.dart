@@ -51,6 +51,8 @@ class _AwalState extends State<Awal>{
       ),
       body: _layoutPage.elementAt(_selectedIndex),
       bottomNavigationBar: BottomNavigationBar(
+        selectedFontSize: 10,
+        unselectedFontSize: 10,
         items: <BottomNavigationBarItem> [
           BottomNavigationBarItem (
               icon : Icon(Icons.dashboard),
